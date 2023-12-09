@@ -28,12 +28,22 @@
 
 .nav__links {
   display: flex;
-  font-weight: 500;
-  column-gap: 20px;
   align-items: flex-start;
   margin: 0 0 8px;
   list-style: none;
   padding: 0;
+  column-gap: 20px;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  font-style: normal;
+  color: #000;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .header {
